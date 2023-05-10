@@ -1,0 +1,812 @@
+[file "eng"]
+	url = https://github.com/dotnet/razor/tree/main/eng
+[file "eng/AfterSigning.targets"]
+	url = https://github.com/dotnet/razor/blob/main/eng/AfterSigning.targets
+	sha = 449680893be4d33f72a53a34a27c1911404035ca
+	etag = 4dace1037147a71f8ccb4187ee00f98dea7388af8541e8a297d2a3ab0ddf4f19
+	weak
+[file "eng/AfterSolutionBuild.targets"]
+	url = https://github.com/dotnet/razor/blob/main/eng/AfterSolutionBuild.targets
+	sha = fd725a67930bfe5ce6d8974199d0bff948068ab5
+	etag = b45b57a03c2c35177c599a11824e300b20bd607921449ad8b08dea6bb74f6559
+	weak
+[file "eng/BannedSymbols.txt"]
+	url = https://github.com/dotnet/razor/blob/main/eng/BannedSymbols.txt
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 4d527e51e8b45537582ed92a2b61c3a862157a6fe4f8eef9489ba6a0e756389f
+	weak
+[file "eng/Build.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Build.props
+	sha = fd725a67930bfe5ce6d8974199d0bff948068ab5
+	etag = 4e57d0db800c59a1bdcf2a5b2d257f87ae8f9ba650777ad810c919c8b66b2a29
+	weak
+[file "eng/CIBuild.cmd"]
+	url = https://github.com/dotnet/razor/blob/main/eng/CIBuild.cmd
+	sha = 5cc20f6934f46ea314019dc725e16bdc87d0d132
+	etag = 31d430e4ec0a946f500a6415c38e3a60658177498e742a0b5ee2e90efb595135
+	weak
+[file "eng/Localize/LocExclusions.json"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Localize/LocExclusions.json
+	sha = 8f645557a0e6e2eb42e42285f66986e45cc55704
+	etag = 7e51566fe4b4becb994d7ad3d71daf6ccea88ea607d7bb746ca846ede64b4b77
+	weak
+[file "eng/MPack.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/MPack.props
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = f53d9a4905dcee9bf4073595b90a7662c9b5553ea862582e821c36d40a62b52d
+	weak
+[file "eng/MPack.targets"]
+	url = https://github.com/dotnet/razor/blob/main/eng/MPack.targets
+	sha = 01c1bf7f3722025b2e3b10fe1fcadfb056c8db42
+	etag = 57ad4edab7eb7bab530104d5083e4e70131f6e9417ae2de8e89219ccdbf39e71
+	weak
+[file "eng/Publishing.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Publishing.props
+	sha = c12b6f32ca0b61a9693030eff2da665325acb75e
+	etag = 6921af7519cb8a3b9c80308f23870028c0db91b3239ecf8a812f125329b3f4a0
+	weak
+[file "eng/SetupVSHive.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/SetupVSHive.ps1
+	sha = 3dfd0bb9872e899124813ded38f2c2b271c517ef
+	etag = 3d27d18f2744e3d987dcac2d16e63cc27b0bf6151e89dc1af16b133968735aa6
+	weak
+[file "eng/Signing.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Signing.props
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 5552dc938cf7be88b1993c77a744279806179dc4deb3823796078e8606de2a16
+	weak
+[file "eng/SourceBuild.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/SourceBuild.props
+	sha = b6fcfb9da0a9427350adf7977b90d9349112a24d
+	etag = f910731103c408f6dcce62d3bcf008cf8c2cd77bceee91fb211ce196e8173882
+	weak
+[file "eng/SourceBuildPrebuiltBaseline.xml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/SourceBuildPrebuiltBaseline.xml
+	sha = 66c7617ab2febaf2e9b8638c33d40a8b1d51c069
+	etag = ca392b90e79bf79f51c87beaebb04ec48c37a8698ef2510d9ccfa993f23b72dd
+	weak
+[file "eng/TSAConfig.gdntsa"]
+	url = https://github.com/dotnet/razor/blob/main/eng/TSAConfig.gdntsa
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 3a8479a2f68173deddcfd1ebc0d9f5ce729f534c07d9f73e5e2d215339afcb4a
+	weak
+[file "eng/Tools.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Tools.props
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 3cb8fac44efaff4dc3e42f62a1de731827080e5332220aeea0e7fbb27228c14a
+	weak
+[file "eng/Version.Details.xml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Version.Details.xml
+	sha = 1973abb625835a9a499cfc0a930d40d706fe12d9
+	etag = 79821cddcbc258a00733d8360399a39c52d21dcae393e0cc3c09bbc2285ced6e
+	weak
+[file "eng/Versions.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/Versions.props
+	sha = b060f783d465fe2d32b1794b14250155f65e3b5a
+	etag = f1b62d22ab92500f7238f078d520b9681a66fb500fcbbd4e7cb1f366f5a00d10
+	weak
+[file "eng/cibuild.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/cibuild.sh
+	sha = 0653fb890026ea0199ff8c8485808a3dc12f10b0
+	etag = 622398968a26a411c2d86ae6e366c0aa2e9fb86370a31b57e522611095dcb83e
+	weak
+[file "eng/common/BuildConfiguration/build-configuration.json"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/BuildConfiguration/build-configuration.json
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 66928ee217bbd1089561aa268b5697318d29ac07c7654775dcc4abad2ca2b9d7
+	weak
+[file "eng/common/CIBuild.cmd"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/CIBuild.cmd
+	sha = 5cc20f6934f46ea314019dc725e16bdc87d0d132
+	etag = eb3ce492dabe846568f5b647ed139b36ab253bf3697cb72be097c97fd27ec09f
+	weak
+[file "eng/common/PSScriptAnalyzerSettings.psd1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/PSScriptAnalyzerSettings.psd1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 1f36de04a75ef7354929c4e33d635d025e85e1ec475deb5e0d0ac3b47904130d
+	weak
+[file "eng/common/README.md"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/README.md
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8b1befb4ab22b711c21d9bda57b3cb3bfbefa85fb4d56ca40deae93472264d3e
+	weak
+[file "eng/common/SetupNugetSources.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/SetupNugetSources.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 1097804050b11f4b4a3077041fb81578b5370da1d6de11a36a293ea846b05520
+	weak
+[file "eng/common/SetupNugetSources.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/SetupNugetSources.sh
+	sha = d6806e2a9a729e42806cbadbbfe56b6b5f4ff609
+	etag = a5d4c34e349ed2e6494511ff31b737425a09169c6d7ac6d3efe225da021f3625
+	weak
+[file "eng/common/build.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/build.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = df283313fca592a9636f0e0e2d7751e415805875d35df5f42464fc6ed077a663
+	weak
+[file "eng/common/build.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/build.sh
+	sha = d6806e2a9a729e42806cbadbbfe56b6b5f4ff609
+	etag = adf125adcb031ad1e38f36046ed42eacfa9faf3e213a51a05a9219be95abbebd
+	weak
+[file "eng/common/cibuild.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cibuild.sh
+	sha = 409618521f688ae106e0aa87a444445c4a672980
+	etag = 21d072cdcd8def2b45621f696d7dda22424afeb5846b4de9000b8fb4834280bc
+	weak
+[file "eng/common/cross/arm/sources.list.bionic"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/sources.list.bionic
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 9bebedfa0df550926d7d7f35835f7dbbb99bd67c2c0d3d94ff7f85070051b723
+	weak
+[file "eng/common/cross/arm/sources.list.focal"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/sources.list.focal
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 20c4cf7819ab3f245bbec165ac613eded9b16221be61bb6164030aaf334ecbb2
+	weak
+[file "eng/common/cross/arm/sources.list.jammy"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/sources.list.jammy
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8df9766a87aa033b0d3c44b36c58585a335bd55820ccb93cb2c54b7b9a71113a
+	weak
+[file "eng/common/cross/arm/sources.list.jessie"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/sources.list.jessie
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 17fcc8e77e007ce85664fb198bfb84757c4d1c2e76ec89a28bbf11f4c4c3b632
+	weak
+[file "eng/common/cross/arm/sources.list.xenial"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/sources.list.xenial
+	sha = e73b5058b6d8d61ef21260c0cfe5fd84fb9650a1
+	etag = c3295a505c04e28def1d734c119606d42cd4e9f89222246bd555e1d414e17082
+	weak
+[file "eng/common/cross/arm/sources.list.zesty"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/sources.list.zesty
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 89126231dbaf0e707f9a9797446b8c9930f553f200d01f2b2db8a80136166017
+	weak
+[file "eng/common/cross/arm/tizen/tizen.patch"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm/tizen/tizen.patch
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 361a02b9d1232279ecd2aa5a2b91e504addc2f61715ddb8b0d2fba91624a8f73
+	weak
+[file "eng/common/cross/arm64/sources.list.bionic"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.bionic
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 9bebedfa0df550926d7d7f35835f7dbbb99bd67c2c0d3d94ff7f85070051b723
+	weak
+[file "eng/common/cross/arm64/sources.list.buster"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.buster
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = e1bf151e30ff812f70617fe7985fefe4bf220210cb112e82e266a1bf450bd3bd
+	weak
+[file "eng/common/cross/arm64/sources.list.focal"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.focal
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 20c4cf7819ab3f245bbec165ac613eded9b16221be61bb6164030aaf334ecbb2
+	weak
+[file "eng/common/cross/arm64/sources.list.jammy"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.jammy
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8df9766a87aa033b0d3c44b36c58585a335bd55820ccb93cb2c54b7b9a71113a
+	weak
+[file "eng/common/cross/arm64/sources.list.stretch"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.stretch
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 3576393c0c8139043c20b1cebe029c6f9964c69c8eca10524768bf7d29bd93ca
+	weak
+[file "eng/common/cross/arm64/sources.list.xenial"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.xenial
+	sha = e73b5058b6d8d61ef21260c0cfe5fd84fb9650a1
+	etag = c3295a505c04e28def1d734c119606d42cd4e9f89222246bd555e1d414e17082
+	weak
+[file "eng/common/cross/arm64/sources.list.zesty"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/sources.list.zesty
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 89126231dbaf0e707f9a9797446b8c9930f553f200d01f2b2db8a80136166017
+	weak
+[file "eng/common/cross/arm64/tizen/tizen.patch"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/arm64/tizen/tizen.patch
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 1b9019131793d4527c7b11206da0e3ca8f8768ca70c5356eabb7c1fe180a24f3
+	weak
+[file "eng/common/cross/armel/armel.jessie.patch"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/armel/armel.jessie.patch
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = a1a93655fc541a1b9ef48ba6fea9df8737b2506d785b33b01264b57051a0908a
+	weak
+[file "eng/common/cross/armel/sources.list.jessie"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/armel/sources.list.jessie
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = ce1e7404c2bd5ec71232dadb65b55fb3465b5fd0f26f8a6cbd40b8c9ba427c23
+	weak
+[file "eng/common/cross/armel/tizen/tizen.patch"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/armel/tizen/tizen.patch
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = fca723960a975a67577a59669583d2b2d67bdfa216c80d56fd9f7cd81b4d6040
+	weak
+[file "eng/common/cross/armv6/sources.list.buster"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/armv6/sources.list.buster
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = f14860286209aa52d17e32db634fe71bde7de61727f1d573ec61fd826eea72bb
+	weak
+[file "eng/common/cross/build-android-rootfs.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/build-android-rootfs.sh
+	sha = 81e42c55a9007cfb497f02b110393ac731b0c322
+	etag = 60134b94c34103934044b4fa5fa37888479b7a3c2e0a8830d977513bbdaa53e3
+	weak
+[file "eng/common/cross/build-rootfs.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/build-rootfs.sh
+	sha = b755f033cd66d2c563324247493fe4343b25548e
+	etag = 832bc81190aaf39d895c27165f9ddac4d009e7af7a29e6adddf0e6aab1beecee
+	weak
+[file "eng/common/cross/ppc64le/sources.list.bionic"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/ppc64le/sources.list.bionic
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 9bebedfa0df550926d7d7f35835f7dbbb99bd67c2c0d3d94ff7f85070051b723
+	weak
+[file "eng/common/cross/riscv64/sources.list.sid"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/riscv64/sources.list.sid
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 92f6041db48d930bffd50ecf2a964209acab552e9b642ac84ab94b51934ec105
+	weak
+[file "eng/common/cross/s390x/sources.list.bionic"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/s390x/sources.list.bionic
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 9bebedfa0df550926d7d7f35835f7dbbb99bd67c2c0d3d94ff7f85070051b723
+	weak
+[file "eng/common/cross/tizen-build-rootfs.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/tizen-build-rootfs.sh
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 36fb4f82b8f072b2d01eade651a7e7887cd5bc6c0faaf7b1590633070e5fba1a
+	weak
+[file "eng/common/cross/tizen-fetch.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/tizen-fetch.sh
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 539b63cf57e6affdce39cda21cceff6603ec37646572019d8a00d5493d76b929
+	weak
+[file "eng/common/cross/toolchain.cmake"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/toolchain.cmake
+	sha = 242ba400dfaa0ec3821f4ce1db58a2c210fff961
+	etag = f3333bba9d4f844cf3a3ad96da84629965bf37d5aa77f1f4373b24bf7b58dfa7
+	weak
+[file "eng/common/cross/x86/sources.list.bionic"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/x86/sources.list.bionic
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 036d55f939cb20274b17abf0473b667083db1aac8d04184c6d5031858655115c
+	weak
+[file "eng/common/cross/x86/sources.list.focal"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/x86/sources.list.focal
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = aa784b8d8b3bb9bebc38e7fb05eaa3f69141b0c08fd706a87e2744c2c6e4526d
+	weak
+[file "eng/common/cross/x86/sources.list.jammy"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/x86/sources.list.jammy
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 774b9b784de5575a6d60a2307950f367b74f660de7557c8677142823ee7ce742
+	weak
+[file "eng/common/cross/x86/sources.list.xenial"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/x86/sources.list.xenial
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 237c083ca1f063172f45ce6d108640eb8e9015240aa65f78e1cdd720c39d97d4
+	weak
+[file "eng/common/cross/x86/tizen/tizen.patch"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/cross/x86/tizen/tizen.patch
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = fc7e27a5be3f575d69b9fd7f1d3c492edf60d438c2b7f1a36b3c14a3bdba0a6c
+	weak
+[file "eng/common/darc-init.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/darc-init.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = d413177834f8f5bd9df1a24466cffefdad558bde12ee2355ee0bf79d3eaab055
+	weak
+[file "eng/common/darc-init.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/darc-init.sh
+	sha = e3a721b360456cd25fed4cb9b3b90916fce3094a
+	etag = d7c481b658de205b20f577d474a8e23d3a6fca007e2d41edfa30a06b3c4b1c91
+	weak
+[file "eng/common/dotnet-install.cmd"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/dotnet-install.cmd
+	sha = 5cc20f6934f46ea314019dc725e16bdc87d0d132
+	etag = 0c9433bf81090ec3ace434916ce361bd3290bf0b69a6a98500abca6da9302c5d
+	weak
+[file "eng/common/dotnet-install.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/dotnet-install.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 7e8a62849d3dd68c5c41499dabf884e24cb6f5bb71e073ebef4828a1c8c6e82b
+	weak
+[file "eng/common/dotnet-install.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/dotnet-install.sh
+	sha = a8df2f883c0505c6fb8e8b52977b3148e3722e6d
+	etag = 6035b267a99712be60d21ad5accc44a9a3572179d0c5d6ae105d5bf247c148f2
+	weak
+[file "eng/common/enable-cross-org-publishing.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/enable-cross-org-publishing.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 520909ad44bd0e2f3d378fcd5d2ed401744513c966e9edfedac9c0ac7d1bcfe3
+	weak
+[file "eng/common/generate-locproject.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/generate-locproject.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = b54a31c24e83f5bf43ede806b500e1735fd5c8997cbe62ec23cd25df77eb5b8d
+	weak
+[file "eng/common/generate-sbom-prep.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/generate-sbom-prep.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 69924d1b824429bae00cdab27c66a2b8954681d6211576336d99467ce2a769b3
+	weak
+[file "eng/common/generate-sbom-prep.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/generate-sbom-prep.sh
+	sha = 896b172e350670b4784eee58aa71901812f29ea3
+	etag = 1e8b35fcd8d7256c1e1d5e12f19d9c9050072da7d63b12b92c070fd94fb15667
+	weak
+[file "eng/common/helixpublish.proj"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/helixpublish.proj
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = b2f5a66b5f66968fed7525456cd6c11f308e8c213ed6ba4500b46011325d5a8d
+	weak
+[file "eng/common/init-tools-native.cmd"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/init-tools-native.cmd
+	sha = 5cc20f6934f46ea314019dc725e16bdc87d0d132
+	etag = 529a84f6368dc344535c757e9b20afa7f49346ad594790567526708271663268
+	weak
+[file "eng/common/init-tools-native.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/init-tools-native.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8d3f54c9ec5fe9a83f6f95bd897cb2076393f7111f2cd82a18c04d08fabbfcc5
+	weak
+[file "eng/common/init-tools-native.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/init-tools-native.sh
+	sha = b81485409577544e21363b1cf602d1c3359f8686
+	etag = 8d4d0040b091f23819bfdc5f474162e8aaed923d6dbdfddc77901cdd08c13265
+	weak
+[file "eng/common/internal-feed-operations.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/internal-feed-operations.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 4ebe649f366ca963fc73c9d0fca7574fa764317c2cad500b2ea27b8173d05615
+	weak
+[file "eng/common/internal-feed-operations.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/internal-feed-operations.sh
+	sha = a7bb8ff79b6830b92dad3cfd76803caaca1ff81b
+	etag = 5ceda91362af1e4a71032d49d9980547711724888b0869e6a7bcf5f205757fd2
+	weak
+[file "eng/common/internal/Directory.Build.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/internal/Directory.Build.props
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = b799306114a2d1b541b6ffaf57fe975d0038bb92182f01d00dc323b0569178a2
+	weak
+[file "eng/common/internal/NuGet.config"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/internal/NuGet.config
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 89df665ce92e5eba7f2fb0dbf1fd53db83b8c8ed8c9d51bcfa9eebefe8fb67e7
+	weak
+[file "eng/common/internal/Tools.csproj"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/internal/Tools.csproj
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 059feba2638b61579aa727ebb8d520769c14760e55322e5e1a780253393a501f
+	weak
+[file "eng/common/loc/P22DotNetHtmlLocalization.lss"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/loc/P22DotNetHtmlLocalization.lss
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 0567addd06a43f70e4a79cf15d9547ce10b098c575de5512f51a909a35479d3f
+	weak
+[file "eng/common/msbuild.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/msbuild.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 5c5f95a100f599b57323d8b7e2811650e53eb4e4202dba3b26e6aa668771d8af
+	weak
+[file "eng/common/msbuild.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/msbuild.sh
+	sha = 5eeb28a3803eba7f9b66f834f214bf48d91068f3
+	etag = 46b1a8bae860e140b6094e289d75eb890f55d0a84b33fc7405b600da5c2e5b54
+	weak
+[file "eng/common/native/CommonLibrary.psm1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/native/CommonLibrary.psm1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = c86303cd008d956ff4365b68b00a7ac3ee60852baa323b33bf6f52f7346e0935
+	weak
+[file "eng/common/native/common-library.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/native/common-library.sh
+	sha = b81485409577544e21363b1cf602d1c3359f8686
+	etag = 7031c6ec02d507be8292eb6475a1194c3b968dcc614b8b91e82cd9b5ffc18ded
+	weak
+[file "eng/common/native/init-compiler.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/native/init-compiler.sh
+	sha = 242ba400dfaa0ec3821f4ce1db58a2c210fff961
+	etag = 287198ba8931174766d51fb9caa9247f1844e2104d8d66e56fc6d0c84cc82022
+	weak
+[file "eng/common/native/install-cmake-test.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/native/install-cmake-test.sh
+	sha = 5eeb28a3803eba7f9b66f834f214bf48d91068f3
+	etag = 92adca6ad4df1c8c6a799d506587dc4898946bd90c1835bae3929451d1175361
+	weak
+[file "eng/common/native/install-cmake.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/native/install-cmake.sh
+	sha = 5eeb28a3803eba7f9b66f834f214bf48d91068f3
+	etag = 618921609942882a151ad5015638a9ae6fa299c9bf1a89360a781a6f6060bb57
+	weak
+[file "eng/common/native/install-tool.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/native/install-tool.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 2ed6f2fd40302af5a5b7ea6277c9a4c51b44f13466ba6d9f3c39a1ed13c8a8c1
+	weak
+[file "eng/common/pipeline-logging-functions.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/pipeline-logging-functions.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 6c678ca5e46246374c259459c45fc065a570efab2ac9ca2542b9a6a5d0d58a24
+	weak
+[file "eng/common/pipeline-logging-functions.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/pipeline-logging-functions.sh
+	sha = 5eeb28a3803eba7f9b66f834f214bf48d91068f3
+	etag = e3957908e6671675ffbc8f88c7d2c5f1722fb66dfb9855fb0579f0bcdbd0711b
+	weak
+[file "eng/common/post-build/add-build-to-channel.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/add-build-to-channel.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = b384229b87b1c47651a65a60e86b19d926c1e2c545ef9bcfa5b4fcd6f46145bc
+	weak
+[file "eng/common/post-build/check-channel-consistency.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/check-channel-consistency.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = eb303e712bf9ffda854af46cd48e101cfa988e471fea9109ec9c8682cadc51e4
+	weak
+[file "eng/common/post-build/nuget-validation.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/nuget-validation.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = df0baef8c88068d7ffbdeceb806d16d3609b84a349f9c0acb9ad74bacef52cc5
+	weak
+[file "eng/common/post-build/post-build-utils.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/post-build-utils.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = f997ca44a9792b096b7021dc0d81b2141d0f10dc165aa48462b4f14a07f8f9d6
+	weak
+[file "eng/common/post-build/publish-using-darc.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/publish-using-darc.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 9f6852cf2314ca64d5d93e8840bad9417a333e69cac141a83a146cff9dcc0c46
+	weak
+[file "eng/common/post-build/sourcelink-validation.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/sourcelink-validation.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 2a722fbaaa4c1e7ee7ea6e6863dec033b34d86d3bdab635d7ad33f50a5f6daf6
+	weak
+[file "eng/common/post-build/symbols-validation.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/symbols-validation.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8dadee7476ec12270fc8c292a55c8cae4b34bcb1007a7ca463d68fb9da9ab07c
+	weak
+[file "eng/common/post-build/trigger-subscriptions.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/post-build/trigger-subscriptions.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = add556c3130712bb41849b99612840929ddb214d1deda4f2aca6496decc29a0e
+	weak
+[file "eng/common/retain-build.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/retain-build.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = c5bec955666cfe07945ad02e8e4276dd6e1d2610c65c683c352f29babe8c0657
+	weak
+[file "eng/common/sdk-task.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdk-task.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 78711b0e843cc8badd8fc2363061d9265d216b579ff5ac0de7987aa823bf9357
+	weak
+[file "eng/common/sdl/NuGet.config"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/NuGet.config
+	sha = 61cc048d36a3fc9246d2f04625988b19a18ab8f0
+	etag = d7f36981b947d705d4ab506fa01b05ea975081f3571c898acd6dea5797d20229
+	weak
+[file "eng/common/sdl/configure-sdl-tool.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/configure-sdl-tool.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 56d25deb3782faa0589034855daf6a74bbb953a1d2d800f2fea90dcd851c5962
+	weak
+[file "eng/common/sdl/execute-all-sdl-tools.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/execute-all-sdl-tools.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 430e3b3de188a641edf434e60df0bd2f50c59326bc2906934628d7724445bd5a
+	weak
+[file "eng/common/sdl/extract-artifact-archives.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/extract-artifact-archives.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8c132019398c437a99af3b5a6d15ad7e010e211c0dde5a3835c751569aebeb33
+	weak
+[file "eng/common/sdl/extract-artifact-packages.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/extract-artifact-packages.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = f090871975f91df8795ccca88317d779047b2578a1a21da2971e70afe730ef62
+	weak
+[file "eng/common/sdl/init-sdl.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/init-sdl.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 19197d1b75855a7f4f89b0914b664a827266bc28d5dc6d68202d931236fb3190
+	weak
+[file "eng/common/sdl/packages.config"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/packages.config
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = b1bb2f621a0db1fe2301765298215eae9836185dc0ea096d25c44e30eddb431f
+	weak
+[file "eng/common/sdl/run-sdl.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/run-sdl.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 4754f29257fa03b801107af6d317769568ef361fe290bd1aacf2eba880e70259
+	weak
+[file "eng/common/sdl/sdl.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/sdl/sdl.ps1
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = cf2b3cb2071c3238da6bfd8c956f131b8f563525996396d6d9c90da7efb0018c
+	weak
+[file "eng/common/templates/job/execute-sdl.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/job/execute-sdl.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = ff53053c9eeaa396e6633ef62cb65ebe378e7ab223cd499eef38bf50b3abbd4d
+	weak
+[file "eng/common/templates/job/job.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/job/job.yml
+	sha = 242ba400dfaa0ec3821f4ce1db58a2c210fff961
+	etag = 4b6238aa2501dbfadeebbed7f53fc2d52cc872911e8ae2332a444fad47ad711f
+	weak
+[file "eng/common/templates/job/onelocbuild.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/job/onelocbuild.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = da5cafad9a3f707bcf701178bbff83424678c6c0b5dfbbef78acd679b580e1fc
+	weak
+[file "eng/common/templates/job/publish-build-assets.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/job/publish-build-assets.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 31e8242d333aac086703692aa05770279321f63f9225f18ccc2661d22fc39835
+	weak
+[file "eng/common/templates/job/source-build.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/job/source-build.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 60b04acdaccd5f1f1e44a27b4426c0ac3f1d638fbe4a56e1d09498ec1e713576
+	weak
+[file "eng/common/templates/job/source-index-stage1.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/job/source-index-stage1.yml
+	sha = 16cd0ba8fa4787ddc5961fc0daa9822b6438f989
+	etag = 24b4df7f65776fd130c014cb53e23c8869e14fe91f407764b243621e3aa74ec5
+	weak
+[file "eng/common/templates/jobs/codeql-build.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/jobs/codeql-build.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 5340a58d5874ad8bb57b8c2b71d7be13e9485bb9ec6e8df286591633be1cc349
+	weak
+[file "eng/common/templates/jobs/jobs.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/jobs/jobs.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = c9ddc5e6add4538ea7c1737975211cfc7420e23ec4b601e275cd1060e25856b5
+	weak
+[file "eng/common/templates/jobs/source-build.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/jobs/source-build.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = f7850a3c9eed77f57e1b05444f02edbd78d705507924af32795bc99969f74a2b
+	weak
+[file "eng/common/templates/post-build/common-variables.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/post-build/common-variables.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 1f79fd44d5b89b9cf8c7c299277326263d1fef1851da539df494bfae48349a3a
+	weak
+[file "eng/common/templates/post-build/post-build.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/post-build/post-build.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = fbd08b2192660c22b89e8dde402706af305f71a05c853196c066457320b39cda
+	weak
+[file "eng/common/templates/post-build/setup-maestro-vars.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/post-build/setup-maestro-vars.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = a99638a775a5e52aa9126ebb9a4d55d29b3366a44157bfbb4267aad6c4da30b6
+	weak
+[file "eng/common/templates/post-build/trigger-subscription.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/post-build/trigger-subscription.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 93b7e46bdb1824ff882dc8771ce221f6abb3427931dd8a03632ca7dc6778df3f
+	weak
+[file "eng/common/templates/steps/add-build-to-channel.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/add-build-to-channel.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 9fed555f94786f50b1ce7d338609d6b7ec4f439102dd9984a28ac7a3a027bba7
+	weak
+[file "eng/common/templates/steps/build-reason.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/build-reason.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = c9178afeb395cd4870750962e39c32921edfcd0cf4c698aadd6e0b0e8186b356
+	weak
+[file "eng/common/templates/steps/component-governance.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/component-governance.yml
+	sha = 6aa1128b06e1b9096707579a942d0809883dd087
+	etag = 729203f25c8de6429cc9637990fa295eab9365fab62da9fe9301d21c50021ddf
+	weak
+[file "eng/common/templates/steps/execute-codeql.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/execute-codeql.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 230bb51770072c9ccf30c833b06f795146f94b6932bf028544f2dfc2aa239083
+	weak
+[file "eng/common/templates/steps/execute-sdl.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/execute-sdl.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = fca8649fe85da05d3a96a95cbb6b687b3398bfc454777f5937678ee2e7576c5b
+	weak
+[file "eng/common/templates/steps/generate-sbom.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/generate-sbom.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 2dde7f29c73b9dd6c12ebdce6aad43cef968b49e80093635d11e82d5c8169126
+	weak
+[file "eng/common/templates/steps/publish-logs.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/publish-logs.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 0b16c4224685b7313ed7fb867e6a2d0e33d2b4616e3ef1eb9935ecf486508628
+	weak
+[file "eng/common/templates/steps/retain-build.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/retain-build.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 0cbaed4eb26938fb9046b3c6800d682cabf787c2c04a92bee58255ac3b0e7d97
+	weak
+[file "eng/common/templates/steps/run-on-unix.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/run-on-unix.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8ceadd2e8a21c5d1d927c809aa4acb0df48973e548048c0279c96d41992aeec9
+	weak
+[file "eng/common/templates/steps/run-on-windows.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/run-on-windows.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = e740e70f19b75ac0123d6d420e7969381d4ef2cb0c1d2f4d680090a64fbd7369
+	weak
+[file "eng/common/templates/steps/run-script-ifequalelse.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/run-script-ifequalelse.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = bc0da0ebc20bc8c56244c6afdf7a8b112f1d24cd45268957b07313dac68a0dbd
+	weak
+[file "eng/common/templates/steps/send-to-helix.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/send-to-helix.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = efb9ac291eb48308ca151f9df222d29598c0c02f2633d36a92effaef435798ca
+	weak
+[file "eng/common/templates/steps/source-build.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/source-build.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 3b5b17dc276385798eabdcd77a1cbdd2ce7758f78f1dfb4c276b0369c7e6a5f2
+	weak
+[file "eng/common/templates/steps/telemetry-end.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/telemetry-end.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 86441778ce8125e6cb9cf0da35a8115e8a023c086dd99939d3354d2e5e47d414
+	weak
+[file "eng/common/templates/steps/telemetry-start.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/steps/telemetry-start.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = 8ea279c0efcfc001c9a44e156afe697d8285b98574055eee91d12a169bf8162d
+	weak
+[file "eng/common/templates/variables/pool-providers.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/variables/pool-providers.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = f1425edb750e7568e16b24031c7eab913ee8a3444faf1ebe0a43478113b7cd28
+	weak
+[file "eng/common/templates/variables/sdl-variables.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/templates/variables/sdl-variables.yml
+	sha = f215ee7aff9e534dde33abcb8d2de9ab2b4aa8e8
+	etag = ac7acb0fea31bff91ba202594376e5873adef3df0d04811c6f59c6c006342386
+	weak
+[file "eng/common/tools.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/tools.ps1
+	sha = 1973abb625835a9a499cfc0a930d40d706fe12d9
+	etag = df6dbdcb51eeb055bf85b733f648f7697b3b2c704ef5cd05075d59ac63ed4470
+	weak
+[file "eng/common/tools.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/common/tools.sh
+	sha = 1973abb625835a9a499cfc0a930d40d706fe12d9
+	etag = 592f03dc2ef1eb17f442c48e3bdf02bad08af0051e1a867e80184d9e831e29e7
+	weak
+[file "eng/config/PublishData.json"]
+	url = https://github.com/dotnet/razor/blob/main/eng/config/PublishData.json
+	sha = 85cd151454b63704c5aa015dd18528570438d383
+	etag = f10330a9f1dd40c6228247ff151afcf8aa691d12f4eda03d6c98526b9ed93126
+	weak
+[file "eng/config/globalconfigs/ApiShim.globalconfig"]
+	url = https://github.com/dotnet/razor/blob/main/eng/config/globalconfigs/ApiShim.globalconfig
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 6b9f4b5c68f213876cc844c6005b3d628143581951d5a5f39069d4b0796bb5ba
+	weak
+[file "eng/config/globalconfigs/Common.globalconfig"]
+	url = https://github.com/dotnet/razor/blob/main/eng/config/globalconfigs/Common.globalconfig
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 9b8573536783cb306550ead2bc052a1f1a5aea69fc28a010863e7909c2817d76
+	weak
+[file "eng/config/globalconfigs/NonShipping.globalconfig"]
+	url = https://github.com/dotnet/razor/blob/main/eng/config/globalconfigs/NonShipping.globalconfig
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = b40fa2032fbd29e1734b9d81acecd21b426b1f35a28dcb1954f3e4f0b3766667
+	weak
+[file "eng/config/globalconfigs/Shipping.globalconfig"]
+	url = https://github.com/dotnet/razor/blob/main/eng/config/globalconfigs/Shipping.globalconfig
+	sha = 0b913ce37697e7c85ea94f5052d935eaf1d6537b
+	etag = f0f2a50ba95af8137c1aea78b021c3f29d91d2f33c6dcab2d4a1a3ee202db250
+	weak
+[file "eng/configure-toolset.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/configure-toolset.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 82a07eda394e58c9fe88ada50fca0305d432868544aaeb473bc4536f788b10ea
+	weak
+[file "eng/configure-toolset.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/configure-toolset.sh
+	sha = 986c224acf1d8a5c351a88259904e381ef1e296b
+	etag = 5fab791da1b4be5298355123848313d820590ef1287b4051e5743a736fe949b5
+	weak
+[file "eng/pipelines/checkout-windows-task.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/pipelines/checkout-windows-task.yml
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = cac0e4e2f29edb8e1282b2a6e6a609d6f2615ec886ab28b5b412a69e217dd97f
+	weak
+[file "eng/pipelines/insert.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/pipelines/insert.yml
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 299108e1ae2a1276764b9f90c5a055b9dc7caf76cc26182b5cc588c0e639d1bc
+	weak
+[file "eng/pipelines/test-integration-job.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/pipelines/test-integration-job.yml
+	sha = 6233012cfcb11e546c3d4e831b712eeb406622d2
+	etag = b9502d32805417eb218eef7244ab7c76738d02f70d8daf4fb1f070656a724909
+	weak
+[file "eng/restore-internal-tools.yml"]
+	url = https://github.com/dotnet/razor/blob/main/eng/restore-internal-tools.yml
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = eccbcb99817b1ea7ceaefb4df418ae58b1c0f44e0d33cf819616a3ba8f6274c5
+	weak
+[file "eng/scripts/CodeCheck.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/CodeCheck.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 83f6fde38b5094b354ada411921c965a344ceae05fad58acef8d8970d4d6d339
+	weak
+[file "eng/scripts/CreateVSHive.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/CreateVSHive.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = a56271b1d92a9352620cd7108cbe0225030faacefe41ea9e3aa648600167099c
+	weak
+[file "eng/scripts/FinishDumpCollectionForHangingBuilds.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/FinishDumpCollectionForHangingBuilds.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = a1207ffb85b45480f881ecd7cb088ea8727dc843e267ecafd1d827b603800ff7
+	weak
+[file "eng/scripts/InstallProcDump.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/InstallProcDump.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 960e44fa50df0acfb1cb6764cf02b78f146609e56b0e639c608b42b22eb6804a
+	weak
+[file "eng/scripts/StartDumpCollectionForHangingBuilds.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/StartDumpCollectionForHangingBuilds.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 4a726819a630adf8226db5b199179f4f282e7a0a9d6974e96f58c9f86385364e
+	weak
+[file "eng/scripts/UpdateTextMate.ps1"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/UpdateTextMate.ps1
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 7dd37298516a7969f2100753361f09b13866f773f04e15f7b9dc0b4b5d7132cc
+	weak
+[file "eng/scripts/ci-source-build.sh"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/ci-source-build.sh
+	sha = 18617770023675a4be29ea5907f6bb736e973644
+	etag = cb1cf6b205d421ceeb06ee862a16d037f96a7fedf1c558622c5a8011af4f14aa
+	weak
+[file "eng/scripts/update-packagejson-links.js"]
+	url = https://github.com/dotnet/razor/blob/main/eng/scripts/update-packagejson-links.js
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 61ca778e31a21244f7baebd9b5fcce9cadea317fc038426622aca0c5409da526
+	weak
+[file "eng/sdl-tsa-vars.config"]
+	url = https://github.com/dotnet/razor/blob/main/eng/sdl-tsa-vars.config
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 1dafac85d03737feb0b8693fe196104bb31787631e43b3d9880c43b42dd333c2
+	weak
+[file "eng/targets/Npm.Common.props"]
+	url = https://github.com/dotnet/razor/blob/main/eng/targets/Npm.Common.props
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 679bb18822f51b6a9570d403fe71ec44272c6e81b343c9f3cd9a4560098d7fbb
+	weak
+[file "eng/targets/Npm.Common.targets"]
+	url = https://github.com/dotnet/razor/blob/main/eng/targets/Npm.Common.targets
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = cabe47f70622ea05adf373e4956d81260d718c778658bf25f546f7fa02083585
+	weak
+[file "eng/targets/Packaging.targets"]
+	url = https://github.com/dotnet/razor/blob/main/eng/targets/Packaging.targets
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 723f1fcff7a62a5fab4e67b4fb51ed12478d6b92c80d60d668e170b209bd2d79
+	weak
