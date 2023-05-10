@@ -41,5 +41,9 @@
   <ItemGroup>
 	<Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.AspNetCore.Razor.Language.src.Compiler.Microsoft.AspNetCore.Razor.Language.src" />
   </ItemGroup>
+
+  <ItemGroup>
+	<Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.CodeAnalysis.Razor.src.Compiler.Microsoft.CodeAnalysis.Razor.src" />
+  </ItemGroup>
 	
 </Project>

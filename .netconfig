@@ -3623,3 +3623,195 @@
 	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
 	etag = ffd824bbf3a30dfbe16c96a2a55d65f7c2948b81818b0857cd76f061c41d0f1d
 	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor"]
+	url = https://github.com/dotnet/razor/tree/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/AssemblyIdentityEqualityComparer.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/AssemblyIdentityEqualityComparer.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 8c183cdd815a478f03d4eb9a4f66402cc80358dcbcc242881202cc52981fbfb1
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/BindTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/BindTagHelperDescriptorProvider.cs
+	sha = df2fd35886f87b9da6bba047f3535d20decb3bc4
+	etag = 0edf667e29479b87c9b10756cee9ccb73675e4dfecc0212058f6530029c55c1e
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/CodeAnalysisResources.resx"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/CodeAnalysisResources.resx
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 37bf3b1905850df27c032b5fc894054dd81ae092ed4a0b18cc67f1ac3cd1f418
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/CompilationTagHelperFeature.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/CompilationTagHelperFeature.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = ec9bacdeadde5deb9a313536bd419766498a2760f1059be96e2536fd3ed1002b
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/CompilerFeatures.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/CompilerFeatures.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = a651d49fd83820b132d6a651baac8e37b0c8809ae2e6deed2323dc4bfcceb427
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/ComponentDetectionConventions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/ComponentDetectionConventions.cs
+	sha = edb288f1ebe6e86b04b081f615360cf60154ab2f
+	etag = e2b531019069617b777fb30bc1d89ed83688de91fdec4870569b915bf5afd612
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/ComponentTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/ComponentTagHelperDescriptorProvider.cs
+	sha = e7da9239daf106e0e2b71a4643068549f80b8fd5
+	etag = 461e65c30799666aa9f8abb23c1b6be2e2be2c3cd0bddb1d65d160623127dc11
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultMetadataReferenceFeature.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultMetadataReferenceFeature.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 10c15079dcacbaff06006b6e1ffad081e458104eee48102849f5336759038567
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultTagHelperDescriptorFactory.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultTagHelperDescriptorFactory.cs
+	sha = 5c4f5367f13247f83478c8f5d5e80989f7e146bb
+	etag = 886f79481f1cff9a95d89dfa6845e5de28092f115c97876b6b12138d55d1c3f9
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultTagHelperDescriptorProvider.cs
+	sha = 5f790f58032f32a728667bb1d78f41ff57cfb850
+	etag = 4cab63554c0fcb89a486240797c48a74ca5ed9cca67e878453482cdc0d6a4308
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultTypeNameFeature.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/DefaultTypeNameFeature.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = c4fdfd1e07ebf7c616eca367b7466b44e3ad8f63a371c43680b45c18ecb23cae
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/EventHandlerTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/EventHandlerTagHelperDescriptorProvider.cs
+	sha = df2fd35886f87b9da6bba047f3535d20decb3bc4
+	etag = 87054cdfcd57bc556498c0cb61faa4fd01ed3f501964ee4592f8198cabd9a61f
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/FilePathComparer.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/FilePathComparer.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = b4ca6423ade19cb03c465ee7358206024e059484a28ff92ab894c26caf879b29
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/FilePathComparison.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/FilePathComparison.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = aa1c5c66eaa51688aeaddef33911c3e837f1a03cb697ef6119dc014560f3fe8a
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/GenericTypeNameRewriter.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/GenericTypeNameRewriter.cs
+	sha = e518a9d52b284fa329e4997ebacc0320af835099
+	etag = 35040103856201b784558f8855bc6dc6a53ba5f76961a893f1efac1b5540ed37
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/GlobalQualifiedTypeNameRewriter.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/GlobalQualifiedTypeNameRewriter.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 239d9131a9fa8e5de7d841448c988e4c4e8f2379dedf51f524bff8bc3a79c905
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/IMetadataReferenceFeature.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/IMetadataReferenceFeature.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = bc6fe9c0af7806849e223b1bbd5d817b932bf3f7c1ad01ed601c3133acd24adc
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/KeyTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/KeyTagHelperDescriptorProvider.cs
+	sha = 5f790f58032f32a728667bb1d78f41ff57cfb850
+	etag = 288814609057a25c5f33fde82158b1ef372dd75acfd3f875603829da09c537fa
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/Microsoft.CodeAnalysis.Razor.csproj"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/Microsoft.CodeAnalysis.Razor.csproj
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = aa36474d5d884b9c4973d93ab139bb4629c3335654e71ff80761d11529a8d06d
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/Properties/AssemblyInfo.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/Properties/AssemblyInfo.cs
+	sha = 7e7d499920bbecbee88c981fa315012de32e4d5a
+	etag = 8bf4242ab47acd226358a33eff748b23c4123c1cb49e2001f1eafa3ab597bad4
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/PublicAPI.Shipped.txt"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/PublicAPI.Shipped.txt
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = e1725bb446746b40c5ba3f75504108bfa600b548f99aeb31f3b9475d3ee37f82
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/PublicAPI.Unshipped.txt"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/PublicAPI.Unshipped.txt
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 45eb423ff51724c9baa9d50c2be439eb001d45a52678a1d5ecc6899a4b60731a
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RazorDiagnosticFactory.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RazorDiagnosticFactory.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 812fd7a2cc795010f7bafbb31123b1b1fa2d9dba0f11488c76250cead3b0c689
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RazorLanguage.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RazorLanguage.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 2fb23a6eec51bdda3dbd1d32d073b2f671148cdb175101eb093ce1fd1b5efab7
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RazorProjectEngineBuilderExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RazorProjectEngineBuilderExtensions.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 97518f1a5c66d11dab5a6055b04dce7970bc1af999b77561816011738b59b41a
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RefTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RefTagHelperDescriptorProvider.cs
+	sha = 5f790f58032f32a728667bb1d78f41ff57cfb850
+	etag = 3d8ed17aa6aa7c4ff334d968b220583d6a52d6a453465e6aa4954ce6f520a5da
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RequiredAttributeParser.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/RequiredAttributeParser.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 6940241cb596ae3923b5c045a61746b8e8e7e58d024b39060e26a91a40bcfe94
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/SourceSpanExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/SourceSpanExtensions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = e7a8739e2d5039e8da0270044fd5651c39d668b12063517310ac4e41800da640
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/SplatTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/SplatTagHelperDescriptorProvider.cs
+	sha = 5f790f58032f32a728667bb1d78f41ff57cfb850
+	etag = cee941eb120842e9a9503c898d19de16b4880dc1890fca36063d603039d4c731
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/SymbolExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/SymbolExtensions.cs
+	sha = e185fb607b51f0d310565248f5c9e805dfd80308
+	etag = cf9cb6c520fcf40b87ae9c7d5b036a4ae5740abb32ad159de51eabe7e3284357
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperDescriptorProviderContextExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperDescriptorProviderContextExtensions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = e9ed32e327c88b5fc179ababf76c23ebc3ffebd58c3d95f61b6543c36ff7bf40
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperTargetSymbolExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperTargetSymbolExtensions.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = f17599b3c2f30167632421d3e1267f304752a29cea9e4ddfb047f1128a1a5860
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperTypeVisitor.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperTypeVisitor.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = ba2ca988f2ca09938d7204443cb5b0fffcecf9c3c71cb48165afb46aba7e580b
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperTypes.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TagHelperTypes.cs
+	sha = 37311b97c19c25f2a2f67103d003b383876e5886
+	etag = da63ad92ffe33b4e2a98cb7e9093aa0200583b5c29006ff5b02a22d9d69c1ff7
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TextChangeExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TextChangeExtensions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 02770b1f9c5aac054e4a1e099091c65a59451caf5ac60058c34d8b34f4051b01
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TextSpanExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/TextSpanExtensions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 2ed540162fe0251bed52bfa5c3b59a81997f2ab87235c4d68f0f4a3c7e06ac48
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/baseline.netcore.json"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/baseline.netcore.json
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = f065c28e4e9f75461c69087ec2389fa9cbd1b0bdd7f490547ff80d1e2f033ced
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.CodeAnalysis.Razor/src/Compiler/Microsoft.CodeAnalysis.Razor/src/baseline.netframework.json"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.CodeAnalysis.Razor/src/baseline.netframework.json
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 19b1f40b418feaf59d2bd77cf84b7c12500fb6926ff45ae3ef0dabfac9a14f81
+	weak
