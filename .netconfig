@@ -3143,6 +3143,7 @@
 	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Razor.Language/src/SourceMapping.cs
 	etag = 19732066b389a01f96bc7588d1df2eb531d1d831c9f7d3fbf042aa60830529f3
 	weak
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
 [file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Razor.Language/src/Compiler/Microsoft.AspNetCore.Razor.Language/src/SourceSpan.cs"]
 	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Razor.Language/src/SourceSpan.cs
 	sha = 8649c2c60ab8c2f1e963b765a3ff02ad04b25842
