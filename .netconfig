@@ -810,3 +810,33 @@
 	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
 	etag = 723f1fcff7a62a5fab4e67b4fb51ed12478d6b92c80d60d668e170b209bd2d79
 	weak
+[file "NuGet.config"]
+	url = https://github.com/dotnet/razor/tree/main/NuGet.config
+	sha = 449680893be4d33f72a53a34a27c1911404035ca
+	etag = d03ce58d15b6fecf4e233e05cb41eda6b2643d31d3fcaa5ddf404a2bf6d5ef2a
+	weak
+[file "global.json"]
+	url = https://github.com/dotnet/razor/tree/main/global.json
+	sha = 1973abb625835a9a499cfc0a930d40d706fe12d9
+	etag = 1990ee55f8ef98f1e1d91db6f47a63a09c8e92e68c07eaef5326811749b150b8
+	weak
+[file "Directory.Build.props"]
+	url = https://github.com/dotnet/razor/tree/main/Directory.Build.props
+	sha = 9abeb2824113ddd93757fd6619086db7ad61df20
+	etag = 5ef056282312c054b38c6930595c682dfadd659be8b3cffc3ccca7a432d6382a
+	weak
+[file "Directory.Build.targets"]
+	url = https://github.com/dotnet/razor/tree/main/Directory.Build.targets
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 134db1a61b0143508c5b260d4bbf0496ca78a36a248d3774053df6f3396ac816
+	weak
+[file ".gitattributes"]
+	url = https://github.com/dotnet/razor/tree/main/.gitattributes
+	sha = 713d80b753622b535c12dbb7c323776081327891
+	etag = 5388cf1ecb57cec7a95af4b821c79a7d3567ec35ebdce148d7ffabf0675ba191
+	weak
+[file "src/Shared/LanguageSupport/IsExternalInit.cs"]
+	url = https://github.com/dotnet/razor/tree/main/src/Shared/LanguageSupport/IsExternalInit.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 0289a7c570c335e9640575bcb2e6d3d9144a42f166d15818df2418d31b67538e
+	weak

@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 eng/
+NuGet.config
+global.json
+Directory.Build.props
+Directory.Build.targets
+src/Shared/LanguageSupport/IsExternalInit.cs
+.gitattributes
 
 # User-specific files
 *.rsuser
