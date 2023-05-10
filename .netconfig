@@ -3816,3 +3816,180 @@
 	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
 	etag = 19b1f40b418feaf59d2bd77cf84b7c12500fb6926ff45ae3ef0dabfac9a14f81
 	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions"]
+	url = https://github.com/dotnet/razor/tree/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/CreateNewOnMetadataUpdateAttributePass.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/CreateNewOnMetadataUpdateAttributePass.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 48edb5b068f0f3e337e4ba111922722601ca40f8ae7ff9cc0b567298bf423db3
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ExtensionInitializer.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ExtensionInitializer.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 2f61b6cf2cc92e06f913e61e8808d3a53d7b8ec97ab31bdc97cbd255625f8513
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/IInjectTargetExtension.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/IInjectTargetExtension.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 70c61e63531c311ced65a02151fafeab0e1d0899f65dd75abedcbd9d6fa7ff18
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/IViewComponentTagHelperTargetExtension.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/IViewComponentTagHelperTargetExtension.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = a69b6656ae5280fc3f48a44d366140acf71e0e49e9e12f143ac4ea22945f9b67
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/InjectDirective.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/InjectDirective.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = bee96fd63fc855c4f8419141f65830094a256ed661f4dada9150930a43a5328a
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/InjectIntermediateNode.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/InjectIntermediateNode.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 012c5d9667a097cc4471f841d880fc91a6c75150a46820b0ee2f9a1482e4f96f
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/InjectTargetExtension.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/InjectTargetExtension.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 41e0f31873fbbd3fd5f11bee17ee161ddb21c03d6a37ec1aae4288695551768d
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Microsoft.AspNetCore.Mvc.Razor.Extensions.csproj"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Microsoft.AspNetCore.Mvc.Razor.Extensions.csproj
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 0c7a494e9de33309fde5f7036e38af9cdb74a0d6e91963a04dd67acedccdb4ff
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ModelDirective.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ModelDirective.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 822198ae8baaf2da232b7db576730e8539534ea615a1b29df79d242f73d55214
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ModelExpressionPass.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ModelExpressionPass.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 473feca6b5691f73118f52a2b6aca9198e611ce8b5d350c782ea5f44fecef3ab
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/MvcImportProjectFeature.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/MvcImportProjectFeature.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 63a22548187319b47d5b8385a071ca53169d93110122e68a8aa54b19479cfc3a
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/MvcViewDocumentClassifierPass.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/MvcViewDocumentClassifierPass.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 5c4b1ad303f766ecf4cc89f2bd628d847d64a2005d02d068a79e20f194d41cc6
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PageDirective.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PageDirective.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 2b818ad91308b2532fe9f822261b862673429158141c806d24f896c87cb0546c
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PagesPropertyInjectionPass.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PagesPropertyInjectionPass.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = aea2b2c60f315e0c0bb1205380134ca2dfdfd0215c7db33fa5ee1543c2f16de6
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Properties/AssemblyInfo.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Properties/AssemblyInfo.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 63fdd37aa36a23c0b49601a67680448a12887ca5b7cfbf776207d2dbffa9b4bc
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PublicAPI.Shipped.txt"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PublicAPI.Shipped.txt
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 4d47af4fe33fe9ce056ed76e3b8666402d315254e39dafda40414304dfcfff4c
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PublicAPI.Unshipped.txt"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/PublicAPI.Unshipped.txt
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 45eb423ff51724c9baa9d50c2be439eb001d45a52678a1d5ecc6899a4b60731a
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorExtensions.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 4e0c037b07002737415cd4c4bc7aa81d7e5ba1e74ed6bdf903eabae87939b550
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorExtensionsDiagnosticFactory.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorExtensionsDiagnosticFactory.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = bd33c97d873cc15e64419fe1cedcb440e30dd2b071ac5bed351b2e4cbc04d365
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorExtensionsResources.resx"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorExtensionsResources.resx
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = a7ae74acb09a92b37f2a9011985c75ae08714a1d8097a39b4fcc150ed3c2e269
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorPageDocumentClassifierPass.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/RazorPageDocumentClassifierPass.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 0656b7aac35fecd2ac3bf2802e4b00e960eac56fc03774e5d1f798b3fe6e126b
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/TagHelperDescriptorExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/TagHelperDescriptorExtensions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 612bd36e693c28e682f51d3acb838e03ab917df51c88437094d1343159323f0c
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperConventions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperConventions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 92945d93de9f90888841e808296355cbc148e289fe253469cc8a44f66b566c17
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperDescriptorFactory.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperDescriptorFactory.cs
+	sha = 43966d92d401c8ae25a9934375928a541aa36102
+	etag = 4a19681f0057f13a4699cff076088f33ad8a37059c835413255f80317abb769d
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperDescriptorProvider.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperDescriptorProvider.cs
+	sha = 57d66db0a5e3bceff0695edc49b20a55acc44536
+	etag = 16416f1d4c86bca4d132754935520a36a0cdc607fbffc849424d49618db4b0ef
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperIntermediateNode.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperIntermediateNode.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 716001734c016b29aa2002f1b55f2e99db959aab9570744be8c465a6e0841f28
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperMetadata.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperMetadata.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 59e3ed29f3e983c56cc29de27ff023169fee06ea9df6747ae22a7646a4dc193f
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperPass.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperPass.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = e5e3e037ea4e30edf98383f806ee26d0cd7d3673fdce3faf606d64e9d40a2464
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperTargetExtension.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTagHelperTargetExtension.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = fd7160742133a0aa3345d33472d8a1a6a0b6c3b78cc8a56b9d63df57fe4d21ec
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTypeVisitor.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTypeVisitor.cs
+	sha = 57d66db0a5e3bceff0695edc49b20a55acc44536
+	etag = 52e2a2d9a74bebf110498004c315ce5f79fd617f8eaf69aa70344b6a725d5944
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTypes.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/ViewComponentTypes.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 16a4611c58fd80a54814f382aebf490bbbe114bec787922089e59de4f857f853
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/baseline.netcore.json"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/baseline.netcore.json
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 018e3a3ab978754f9d455b8507fc462557a615a0f53d79e55af434e3334db8f8
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/baseline.netframework.json"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/baseline.netframework.json
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 972815f277ce50beb2b853ab2318c288c033f63cf18e664f78cce47e5ab0ee95
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/breakingchanges.netcore.json"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/breakingchanges.netcore.json
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 8201f718d858b2714664dca23e3794ab8151d1343919c62b76e3aad80a536b55
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/breakingchanges.netframework.json"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.AspNetCore.Mvc.Razor.Extensions/src/breakingchanges.netframework.json
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = 8201f718d858b2714664dca23e3794ab8151d1343919c62b76e3aad80a536b55
+	weak
