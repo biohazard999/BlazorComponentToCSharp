@@ -37,5 +37,9 @@
 
 	<Using Include="Microsoft.AspNetCore.Razor.Utilities.Shared.Resources" />
   </ItemGroup>
+
+  <ItemGroup>
+	<Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.AspNetCore.Razor.Language.src.Compiler.Microsoft.AspNetCore.Razor.Language.src" />
+  </ItemGroup>
 	
 </Project>
