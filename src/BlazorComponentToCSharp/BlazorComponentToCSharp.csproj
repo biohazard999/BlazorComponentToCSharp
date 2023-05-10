@@ -54,5 +54,14 @@
 
 	<Using Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" />
   </ItemGroup>
+
+  <ItemGroup Label="Microsoft.NET.Sdk.Razor.SourceGenerators String Resources">
+	<EmbeddedResource Update="External\Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators\src\Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators\Diagnostics\RazorSourceGeneratorResources.resx">
+	  <GenerateSource>true</GenerateSource>
+   	  <Namespace>Microsoft.NET.Sdk.Razor.SourceGenerators.Diagnostics</Namespace>
+	</EmbeddedResource>
+
+	<Using Include="Microsoft.NET.Sdk.Razor.SourceGenerators.Diagnostics" />
+  </ItemGroup>
 	
 </Project>

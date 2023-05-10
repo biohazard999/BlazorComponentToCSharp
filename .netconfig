@@ -3993,3 +3993,110 @@
 	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
 	etag = 8201f718d858b2714664dca23e3794ab8151d1343919c62b76e3aad80a536b55
 	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators"]
+	url = https://github.com/dotnet/razor/tree/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/.editorconfig"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/.editorconfig
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 732e299bf2eaac546175e67bc35919e6053d0eba0417bc2b5bca0b13ee83be53
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/ConfigureRazorCodeGenerationOptions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/ConfigureRazorCodeGenerationOptions.cs
+	sha = 05175c2dc991cb1dcf68f6166df3eaba38803393
+	etag = b1bda81e1c0b8a4010d8feeaaf767376548b5b1b29b1c7f83590b47c15303c4f
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Diagnostics/DiagnosticIds.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Diagnostics/DiagnosticIds.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 6bc65d22e233bdc22e29715922919d5983165195d404023f33f205e3fae9e556
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Diagnostics/RazorDiagnostics.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Diagnostics/RazorDiagnostics.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 0544c8171d5f9a97722d19e90ec407343bb75ad447ce795e54f280d21385c2bd
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Diagnostics/RazorSourceGeneratorResources.resx"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Diagnostics/RazorSourceGeneratorResources.resx
+	sha = 6e53febb6e1fc0d043d0910b9d1d8eabb87e6db8
+	etag = 33e1d664aaec756117a3ac47862d3a396b2fabdb1e812024bcdcbe46c9c332a8
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/IncrementalValueProviderExtensions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/IncrementalValueProviderExtensions.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = c8489a39426b20c4949e1ec784f436e9dbf7a98d18207e9d049e8968458f680f
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.csproj"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.csproj
+	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
+	etag = 96845bc66767fb5d754c9c89897e4706e73bfb5a644e76e68fb90550a79128fe
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Properties/AssemblyInfo.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/Properties/AssemblyInfo.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = f502bcf3bab9bb4c668b4a1f23a43544461c45f76ff340ec2f6e45a3eb310b65
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerationOptions.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerationOptions.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 837be8bcc1da1743354fd575a2c9eccb537e94c92dabc9038f54d297dd1ab8e1
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.Helpers.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.Helpers.cs
+	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
+	etag = 2b945e099c8f270ae24164d019c55cc7537c41a551b29c43e44b2d8803f00277
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.RazorProviders.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.RazorProviders.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 15fe722cbcb6d408a75fe5bcb8049e5b0c408d345bdaab5c6b6e60e2411381a5
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.TagHelpers.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.TagHelpers.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = ce9dde72ddc34c97055093ac86b3f61b0fdaa40c1cad5e8ff9f9d2c6ef588a89
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.cs
+	sha = 4686a7ce106d7d0e9b70f8e1b7d1aa16d5a8302f
+	etag = bb8ff46cec5440add31ce37acdf37aa0f89e48a344efc6464f53a3f3b0ae6e86
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.razorencconfig"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGenerator.razorencconfig
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = cdff37ee7502eddd335df1d1b22740b5fe0648ded740541e0971ff3411f7bb22
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGeneratorEventSource.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/RazorSourceGeneratorEventSource.cs
+	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
+	etag = 1273965a2d8fa448974c008a0ba720bda1a47086a0375b5258108503edd7bb95
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceGeneratorProjectEngine.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceGeneratorProjectEngine.cs
+	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
+	etag = b11e5341593a06b5ef8e6505516c9cb4cd93c41da027ee90835c6ede81b38883
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceGeneratorProjectItem.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceGeneratorProjectItem.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 189c76b395abc098f842950341b4d64d233e33995e28d8bb37db56d2a1c5e042
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceGeneratorRazorCodeDocument.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceGeneratorRazorCodeDocument.cs
+	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
+	etag = 782a6466fd86d2240c4a46e9aafbe4977b06e6369982b9f8a5e12898f5662080
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceTextRazorSourceDocument.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceTextRazorSourceDocument.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = 8cf94be0094799cce390a2da147000c3a0f4e8cbca8d484bbf670c172069a54c
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceTextSourceLineCollection.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/SourceTextSourceLineCollection.cs
+	sha = fcae93171c28d0a3935423be5584176e3ce29bbc
+	etag = a01f785563e9a6d96f4368d7c0afc654b7824ae8b990b553a7a14aeae4e03283
+	weak
+[file "src/BlazorComponentToCSharp/External/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/StaticCompilationTagHelperFeature.cs"]
+	url = https://github.com/dotnet/razor/blob/main/src/Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators/StaticCompilationTagHelperFeature.cs
+	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
+	etag = ec89391990efd3aa7c8c9a117f0b653262887e33fad496b6087b18140e8cb1e0
+	weak
