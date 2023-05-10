@@ -9,6 +9,7 @@ Directory.Build.props
 Directory.Build.targets
 src/Shared/LanguageSupport/IsExternalInit.cs
 .gitattributes
+src/BlazorComponentToCSharp/External/
 
 # User-specific files
 *.rsuser
