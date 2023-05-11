@@ -5,23 +5,39 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C1E9550-1EB8-4AB4-8A91-126CD97CC075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorComponentToCSharp", "src\BlazorComponentToCSharp\BlazorComponentToCSharp.csproj", "{0B965E5C-F226-4B3B-934E-875EDA8096EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorComponentToCSharp", "src\BlazorComponentToCSharp\BlazorComponentToCSharp.csproj", "{0B965E5C-F226-4B3B-934E-875EDA8096EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{452BB41E-14AD-4807-B6A0-0B9EF7532104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorComponentToCSharp.Demo", "demo\BlazorComponentToCSharp.Demo\BlazorComponentToCSharp.Demo.csproj", "{5DA55209-2F9B-49E3-81C4-B861C83E04DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorComponentDemoLibrary", "demo\BlazorComponentDemoLibrary\BlazorComponentDemoLibrary.csproj", "{47F59C18-BDC2-42AB-A4C7-B8AA762E4AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0B965E5C-F226-4B3B-934E-875EDA8096EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B965E5C-F226-4B3B-934E-875EDA8096EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B965E5C-F226-4B3B-934E-875EDA8096EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B965E5C-F226-4B3B-934E-875EDA8096EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA55209-2F9B-49E3-81C4-B861C83E04DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA55209-2F9B-49E3-81C4-B861C83E04DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA55209-2F9B-49E3-81C4-B861C83E04DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA55209-2F9B-49E3-81C4-B861C83E04DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F59C18-BDC2-42AB-A4C7-B8AA762E4AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F59C18-BDC2-42AB-A4C7-B8AA762E4AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F59C18-BDC2-42AB-A4C7-B8AA762E4AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F59C18-BDC2-42AB-A4C7-B8AA762E4AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0B965E5C-F226-4B3B-934E-875EDA8096EE} = {1C1E9550-1EB8-4AB4-8A91-126CD97CC075}
+		{5DA55209-2F9B-49E3-81C4-B861C83E04DE} = {452BB41E-14AD-4807-B6A0-0B9EF7532104}
+		{47F59C18-BDC2-42AB-A4C7-B8AA762E4AA9} = {452BB41E-14AD-4807-B6A0-0B9EF7532104}
 	EndGlobalSection
 EndGlobal

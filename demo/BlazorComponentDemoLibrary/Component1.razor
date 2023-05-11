@@ -1,0 +1,20 @@
+﻿<div class="my-component">
+    This component is defined in the <strong>BlazorComponentDemoLibrary</strong> library.
+</div>
+
+<p>The current Date is @CurrentDate</p>
+
+@if(Random.Shared.Next(100) % 2 == 0)
+{
+    <p>Hello @CurrentName</p>
+}
+
+@code {
+    public string CurrentDate 
+        => DateOnly.FromDateTime(
+            DateTime.Now
+        ).ToLongDateString();
+
+    [Parameter]
+    public string CurrentName { get; set; } = "John Doe";
+}
