@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<LangVersion>preview</LangVersion>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +17,13 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\BlazorComponentToCSharp\BlazorComponentToCSharp.csproj" />
     <ProjectReference Include="..\BlazorComponentDemoLibrary\BlazorComponentDemoLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.44.0" />
+    <PackageReference Include="Spectre.Console.Analyzer" Version="0.44.0" />
+    <PackageReference Include="TextMateSharp" Version="1.0.41" />
+    <PackageReference Include="TextMateSharp.Grammars" Version="1.0.41" />
   </ItemGroup>
 
 </Project>

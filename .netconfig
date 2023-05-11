@@ -4100,3 +4100,9 @@
 	sha = 4ab512e7f0690cafa6e1515667d88625dc24f015
 	etag = ec89391990efd3aa7c8c9a117f0b653262887e33fad496b6087b18140e8cb1e0
 	weak
+[file "demo/BlazorComponentToCSharp.Demo/Helpers/ConsoleHelper.cs"]
+	url = https://github.com/xenial-io/XpoRecords/blob/main/demo/1.Simple/XpoRecords.Demo/Helpers/ConsoleHelper.cs
+	etag = a99d235a550db7c347c8495ec14bcf3ac03a7b7aadb4a7564d3993b658122d21
+[file ".editorconfig"]
+	url = https://github.com/xenial-io/XpoRecords/blob/main/.editorconfig
+	etag = ca5bbf2dd7393e657c5379c76477a0a7a892297474dd3fa1f9743f7d139f41a8

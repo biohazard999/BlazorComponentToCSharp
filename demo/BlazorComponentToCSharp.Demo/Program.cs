@@ -1,25 +1,29 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using BlazorComponentToCSharp;
 using BlazorComponentDemoLibrary;
 
-using BlazorComponentToCSharp;
+using Spectre.Console;
 
-Console.WriteLine("Hello, World!");
+using XpoRecords.Demo.Helpers;
 
-var razorFilePath = $"../{nameof(BlazorComponentDemoLibrary)}/{nameof(Component1)}.razor";
+AnsiConsole.WriteLine("Hello, World!");
+
+var directory = Path.GetDirectoryName(typeof(Program).Assembly.Location);
+
+var razorFilePath = Path.Combine(directory, $"{nameof(Component1)}.razor");
 var razorFileContent = File.ReadAllText(razorFilePath);
 
-WriteFileContent($"Razor File Content:", razorFileContent);
+WriteFileContent($"Razor File Content:", razorFileContent, "razor");
 
 var csharpFileContent = BlazorComponentToCSharpEngine.BlazorComponentToCSharp(razorFilePath, razorFileContent);
 
-Console.WriteLine();
+AnsiConsole.WriteLine();
 
 WriteFileContent($"Charp File Content:", csharpFileContent);
 
-static void WriteFileContent(string caption, string content)
+static void WriteFileContent(string caption, string content, string lang = "cs")
 {
-    Console.WriteLine(caption);
-    Console.WriteLine(new string('-', Console.WindowWidth));
-    Console.WriteLine(content);
-    Console.WriteLine(new string('-', Console.WindowWidth));
+    AnsiConsole.WriteLine(caption);
+    AnsiConsole.WriteLine(new string('-', Console.WindowWidth));
+    ConsoleHelper.PrintSource(content, lang);
+    AnsiConsole.WriteLine(new string('-', Console.WindowWidth));
 }
