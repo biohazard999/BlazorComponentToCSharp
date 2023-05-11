@@ -4,14 +4,81 @@ using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Razor;
 using Microsoft.NET.Sdk.Razor.SourceGenerators;
+using System.Text;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace BlazorComponentToCSharp;
 
-public class BlazorComponentToCSharpEngine
+public class BlazorComponentToCSharpEngine(
+    AnalyzerConfigOptionsProvider options,
+    ParseOptions parseOptions
+)
 {
-    public static string BlazorComponentToCSharp(string filePath, string fileContent)
+    private readonly AnalyzerConfigOptionsProvider analyzerConfigOptions
+        = options ?? throw new ArgumentNullException(nameof(options));
+
+    private readonly ParseOptions parseOptions
+        = parseOptions ?? throw new ArgumentNullException(nameof(parseOptions));
+
+    public string BlazorComponentToCSharp(
+        AdditionalText additionalText
+    )
     {
-        return "";
+        var (projectItem, _) = ComputeProjectItems(additionalText, analyzerConfigOptions);
+
+        var (razorOptions, _) = ComputeRazorSourceGeneratorOptions(analyzerConfigOptions, parseOptions);
+
+        var generator = GetGenerationProjectEngine(
+            projectItem!,
+            Enumerable.Empty<SourceGeneratorProjectItem>(),
+            razorOptions!
+        );
+
+
+        var codeGen = generator.Process(projectItem!);
+
+        var result = codeGen.GetCSharpDocument().GeneratedCode;
+
+        return result;
+    }
+
+    private static (SourceGeneratorProjectItem?, Diagnostic?) ComputeProjectItems((AdditionalText, AnalyzerConfigOptionsProvider) pair, CancellationToken ct)
+    {
+        var (additionalText, globalOptions) = pair;
+        return ComputeProjectItems(additionalText, globalOptions);
+    }
+
+    private static (SourceGeneratorProjectItem?, Diagnostic?) ComputeProjectItems(AdditionalText additionalText, AnalyzerConfigOptionsProvider globalOptions)
+    {
+        var options = globalOptions.GetOptions(additionalText);
+        return ComputeProjectItems(additionalText, options);
+    }
+
+    private static (SourceGeneratorProjectItem?, Diagnostic?) ComputeProjectItems(AdditionalText additionalText, AnalyzerConfigOptions options)
+    {
+        if (!options.TryGetValue("build_metadata.AdditionalFiles.TargetPath", out var encodedRelativePath) ||
+                    string.IsNullOrWhiteSpace(encodedRelativePath))
+        {
+            var diagnostic = Diagnostic.Create(
+                RazorDiagnostics.TargetPathNotProvided,
+                Location.None,
+                additionalText.Path);
+            return (null, diagnostic);
+        }
+
+        options.TryGetValue("build_metadata.AdditionalFiles.CssScope", out var cssScope);
+        var relativePath = Encoding.UTF8.GetString(Convert.FromBase64String(encodedRelativePath));
+
+        var projectItem = new SourceGeneratorProjectItem(
+            basePath: "/",
+            filePath: '/' + relativePath
+                .Replace(Path.DirectorySeparatorChar, '/')
+                .Replace("//", "/"),
+            relativePhysicalPath: relativePath,
+            fileKind: additionalText.Path.EndsWith(".razor", StringComparison.OrdinalIgnoreCase) ? FileKinds.Component : FileKinds.Legacy,
+            additionalText: additionalText,
+            cssScope: cssScope);
+        return (projectItem, null);
     }
 
     private static (RazorSourceGenerationOptions?, Diagnostic?) ComputeRazorSourceGeneratorOptions((AnalyzerConfigOptionsProvider, ParseOptions) pair, CancellationToken ct)
@@ -19,8 +86,18 @@ public class BlazorComponentToCSharpEngine
         //Log.ComputeRazorSourceGeneratorOptions();
 
         var (options, parseOptions) = pair;
-        var globalOptions = options.GlobalOptions;
 
+        return ComputeRazorSourceGeneratorOptions(options, parseOptions);
+    }
+
+    private static (RazorSourceGenerationOptions?, Diagnostic?) ComputeRazorSourceGeneratorOptions(AnalyzerConfigOptionsProvider options, ParseOptions parseOptions)
+    {
+        var globalOptions = options.GlobalOptions;
+        return ComputeRazorSourceGeneratorOptions(globalOptions, parseOptions);
+    }
+
+    private static (RazorSourceGenerationOptions?, Diagnostic?) ComputeRazorSourceGeneratorOptions(AnalyzerConfigOptions globalOptions, ParseOptions parseOptions)
+    {
         globalOptions.TryGetValue("build_property.RazorConfiguration", out var configurationName);
         globalOptions.TryGetValue("build_property.RootNamespace", out var rootNamespace);
         globalOptions.TryGetValue("build_property.SupportLocalizedComponentNames", out var supportLocalizedComponentNames);
@@ -50,6 +127,27 @@ public class BlazorComponentToCSharpEngine
 
         return (razorSourceGenerationOptions, diagnostic);
     }
+
+    //TODO: Imports
+    //private void GetImportFiles(IEnumerable<Add>)
+    //{
+    //    var importFiles = sourceItems.Where(static file =>
+    //    {
+    //        var path = file.FilePath;
+    //        if (path.EndsWith(".razor", StringComparison.OrdinalIgnoreCase))
+    //        {
+    //            var fileName = Path.GetFileNameWithoutExtension(path);
+    //            return string.Equals(fileName, "_Imports", StringComparison.OrdinalIgnoreCase);
+    //        }
+    //        else if (path.EndsWith(".cshtml", StringComparison.OrdinalIgnoreCase))
+    //        {
+    //            var fileName = Path.GetFileNameWithoutExtension(path);
+    //            return string.Equals(fileName, "_ViewImports", StringComparison.OrdinalIgnoreCase);
+    //        }
+
+    //        return false;
+    //    });
+    //}
 
     private static SourceGeneratorProjectEngine GetGenerationProjectEngine(
            SourceGeneratorProjectItem item,

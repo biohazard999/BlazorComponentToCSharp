@@ -6,13 +6,15 @@ using Spectre.Console;
 using XpoRecords.Demo.Helpers;
 using Microsoft.Build.Locator;
 using Microsoft.CodeAnalysis.MSBuild;
+using System.Runtime.CompilerServices;
+using Microsoft.CodeAnalysis;
 
 MSBuildLocator.RegisterDefaults();
 
 AnsiConsole.WriteLine("Hello, World!");
 
 var directory = Path.GetDirectoryName(typeof(Program).Assembly.Location)!;
-var solutionPath = $"../{nameof(BlazorComponentDemoLibrary)}/{nameof(BlazorComponentDemoLibrary)}.csproj";
+var solutionPath = $"{Path.GetDirectoryName(ProgramCsPath())}/../{nameof(BlazorComponentDemoLibrary)}/{nameof(BlazorComponentDemoLibrary)}.csproj";
 
 using var workspace = MSBuildWorkspace.Create();
 
@@ -27,14 +29,23 @@ Console.WriteLine($"Finished loading solution '{solutionPath}'");
 
 // TODO: Do analysis on the projects in the loaded solution
 
-
-
 var razorFilePath = Path.Combine(directory, $"{nameof(Component1)}.razor");
 var razorFileContent = File.ReadAllText(razorFilePath);
 
 WriteFileContent($"Razor File Content:", razorFileContent, "razor");
 
-var csharpFileContent = BlazorComponentToCSharpEngine.BlazorComponentToCSharp(razorFilePath, razorFileContent);
+
+var engine = new BlazorComponentToCSharpEngine(
+    solution.AnalyzerOptions.AnalyzerConfigOptionsProvider,
+    solution.ParseOptions
+);
+
+var document = solution
+    .AnalyzerOptions
+    .AdditionalFiles
+    .First(m => m.Path.EndsWith("Component1.razor"));
+
+var csharpFileContent = engine.BlazorComponentToCSharp(document);
 
 AnsiConsole.WriteLine();
 
@@ -47,6 +58,8 @@ static void WriteFileContent(string caption, string content, string lang = "cs")
     ConsoleHelper.PrintSource(content, lang);
     AnsiConsole.WriteLine(new string('-', Console.WindowWidth));
 }
+
+static string ProgramCsPath([CallerFilePath] string filePath = "") => filePath;
 
 internal class ConsoleProgressReporter : IProgress<ProjectLoadProgress>
 {
@@ -61,3 +74,4 @@ internal class ConsoleProgressReporter : IProgress<ProjectLoadProgress>
         AnsiConsole.MarkupLineInterpolated($"[white]{loadProgress.Operation,-15}[/] [lightgreen]{loadProgress.ElapsedTime,-15:m\\:ss\\.fffffff}[/] [gray]{projectDisplay}[/]");
     }
 }
+
