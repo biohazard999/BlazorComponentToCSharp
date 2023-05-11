@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.15" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BlazorComponentToCSharp\BlazorComponentToCSharp.csproj"
+                      OutputItemType="Analyzer"
+                      ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
 </Project>

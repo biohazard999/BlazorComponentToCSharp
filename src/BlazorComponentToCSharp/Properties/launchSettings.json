@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BlazorComponentToCSharp": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\..\\demo\\BlazorComponentDemoLibrary\\BlazorComponentDemoLibrary.csproj"
+    }
+  }
+}

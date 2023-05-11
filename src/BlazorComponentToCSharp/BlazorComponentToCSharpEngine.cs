@@ -11,7 +11,6 @@ public class BlazorComponentToCSharpEngine
 {
     public static string BlazorComponentToCSharp(string filePath, string fileContent)
     {
-
         return "";
     }
 
