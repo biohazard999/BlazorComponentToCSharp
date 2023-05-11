@@ -29,7 +29,7 @@ Console.WriteLine($"Finished loading solution '{solutionPath}'");
 
 // TODO: Do analysis on the projects in the loaded solution
 
-var razorFilePath = Path.Combine(directory, $"{nameof(Component1)}.razor");
+var razorFilePath = Path.Combine(directory, $"Component1.razor");
 var razorFileContent = File.ReadAllText(razorFilePath);
 
 WriteFileContent($"Razor File Content:", razorFileContent, "razor");
