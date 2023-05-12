@@ -1,13 +1,15 @@
 ﻿using BlazorComponentToCSharp;
-using BlazorComponentDemoLibrary;
 
 using Spectre.Console;
 
 using XpoRecords.Demo.Helpers;
+
 using Microsoft.Build.Locator;
-using Microsoft.CodeAnalysis.MSBuild;
-using System.Runtime.CompilerServices;
 using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.MSBuild;
+
+using System.Runtime.CompilerServices;
 
 MSBuildLocator.RegisterDefaults();
 
@@ -45,8 +47,28 @@ var document = solution
     .AdditionalFiles
     .First(m => m.Path.EndsWith("Component1.razor"));
 
-var csharpFileContent = engine.BlazorComponentToCSharp(document);
+var csharpFileContent = engine.BlazorComponentToCSharp(
+    document,
+    solution.AnalyzerOptions.AdditionalFiles
+);
 
+var compilation = await solution.GetCompilationAsync();
+
+var compilationClone = compilation.Clone();
+
+var syntaxTree = CSharpSyntaxTree.ParseText(csharpFileContent, (CSharpParseOptions)solution.ParseOptions);
+
+compilation = compilation.AddSyntaxTrees(syntaxTree);
+
+var semanticModel = compilation.GetSemanticModel(syntaxTree);
+
+var foundSyntaxTree = compilationClone.SyntaxTrees.FirstOrDefault(m => m.IsEquivalentTo(syntaxTree));
+if (foundSyntaxTree is not null)
+{
+    var semanticModel2 = compilationClone.GetSemanticModel(foundSyntaxTree);
+
+    compilationClone = compilationClone.AddSyntaxTrees(syntaxTree);
+}
 AnsiConsole.WriteLine();
 
 WriteFileContent($"Charp File Content:", csharpFileContent);
@@ -74,4 +96,3 @@ internal class ConsoleProgressReporter : IProgress<ProjectLoadProgress>
         AnsiConsole.MarkupLineInterpolated($"[white]{loadProgress.Operation,-15}[/] [lightgreen]{loadProgress.ElapsedTime,-15:m\\:ss\\.fffffff}[/] [gray]{projectDisplay}[/]");
     }
 }
-

@@ -1,70 +1,80 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>    
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <LangVersion>preview</LangVersion>
-    <IsRoslynComponent>true</IsRoslynComponent>
-    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
-    <DevelopmentDependency>true</DevelopmentDependency>
+
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup>
-	<GenerateResxSource>true</GenerateResxSource>
-	<GenerateResxSourceEmitFormatMethods>true</GenerateResxSourceEmitFormatMethods>
+    <GenerateResxSource>true</GenerateResxSource>
+    <GenerateResxSourceEmitFormatMethods>true</GenerateResxSourceEmitFormatMethods>
 
-	<!-- Embed source files that are not tracked by the source control manager in the PDB. -->
-	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <!-- Embed source files that are not tracked by the source control manager in the PDB. -->
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
 
-	<!-- Working around https://github.com/dotnet/sdk/issues/24747 -->
-	<NoWarn>$(NoWarn);NU1505</NoWarn>
+    <!-- Working around https://github.com/dotnet/sdk/issues/24747 -->
+    <NoWarn>$(NoWarn);NU1505</NoWarn>
 
-	<!-- Working around https://github.com/microsoft/msbuild/pull/4764 -->
-	<EmbeddedResourceUseDependentUponConvention>false</EmbeddedResourceUseDependentUponConvention>
+    <!-- Working around https://github.com/microsoft/msbuild/pull/4764 -->
+    <EmbeddedResourceUseDependentUponConvention>false</EmbeddedResourceUseDependentUponConvention>
 
   </PropertyGroup>
-	
+
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" />
-	<PackageReference Include="Microsoft.Extensions.ObjectPool" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="7.0.5" />
   </ItemGroup>
 
   <ItemGroup Label="Microsoft.AspNetCore.Razor.Utilities.Shared String Resources">
     <EmbeddedResource Update="External\Shared\Microsoft.AspNetCore.Razor.Utilities.Shared\src\Shared\Microsoft.AspNetCore.Razor.Utilities.Shared\Resources\SR.resx">
-	  <GenerateSource>true</GenerateSource>
-	  <Namespace>Microsoft.AspNetCore.Razor.Utilities.Shared.Resources</Namespace>
-	</EmbeddedResource>
+      <GenerateSource>true</GenerateSource>
+      <Namespace>Microsoft.AspNetCore.Razor.Utilities.Shared.Resources</Namespace>
+    </EmbeddedResource>
 
-	<Using Include="Microsoft.AspNetCore.Razor.Utilities.Shared.Resources" />
+    <Using Include="Microsoft.AspNetCore.Razor.Utilities.Shared.Resources" />
   </ItemGroup>
 
   <ItemGroup>
-	<Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.AspNetCore.Razor.Language.src.Compiler.Microsoft.AspNetCore.Razor.Language.src" />
+    <Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.AspNetCore.Razor.Language.src.Compiler.Microsoft.AspNetCore.Razor.Language.src" />
   </ItemGroup>
 
   <ItemGroup>
-	<Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.CodeAnalysis.Razor.src.Compiler.Microsoft.CodeAnalysis.Razor.src" />
+    <Using Include="BlazorComponentToCSharp.External.Compiler.Microsoft.CodeAnalysis.Razor.src.Compiler.Microsoft.CodeAnalysis.Razor.src" />
   </ItemGroup>
 
   <ItemGroup Label="Microsoft.AspNetCore.Mvc.Razor.Extensions String Resources">
     <EmbeddedResource Update="External\Compiler\Microsoft.AspNetCore.Mvc.Razor.Extensions\src\Compiler\Microsoft.AspNetCore.Mvc.Razor.Extensions\src\RazorExtensionsResources.resx">
-	  <GenerateSource>true</GenerateSource>
-   	  <Namespace>Microsoft.AspNetCore.Mvc.Razor.Extensions</Namespace>
+      <GenerateSource>true</GenerateSource>
+      <Namespace>Microsoft.AspNetCore.Mvc.Razor.Extensions</Namespace>
     </EmbeddedResource>
 
-	<Using Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" />
+    <Using Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" />
   </ItemGroup>
 
   <ItemGroup Label="Microsoft.NET.Sdk.Razor.SourceGenerators String Resources">
-	<EmbeddedResource Update="External\Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators\src\Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators\Diagnostics\RazorSourceGeneratorResources.resx">
-	  <GenerateSource>true</GenerateSource>
-   	  <Namespace>Microsoft.NET.Sdk.Razor.SourceGenerators.Diagnostics</Namespace>
-	</EmbeddedResource>
+    <EmbeddedResource Update="External\Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators\src\Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators\Diagnostics\RazorSourceGeneratorResources.resx">
+      <GenerateSource>true</GenerateSource>
+      <Namespace>Microsoft.NET.Sdk.Razor.SourceGenerators.Diagnostics</Namespace>
+    </EmbeddedResource>
 
-	<Using Include="Microsoft.NET.Sdk.Razor.SourceGenerators.Diagnostics" />
+    <Using Include="Microsoft.NET.Sdk.Razor.SourceGenerators.Diagnostics" />
   </ItemGroup>
-	
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' != ''">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <Deterministic>true</Deterministic>
+    <DeterministicSourcePaths>true</DeterministicSourcePaths>
+  </PropertyGroup>
+  
 </Project>

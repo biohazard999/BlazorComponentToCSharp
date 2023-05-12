@@ -21,16 +21,19 @@ public class BlazorComponentToCSharpEngine(
         = parseOptions ?? throw new ArgumentNullException(nameof(parseOptions));
 
     public string BlazorComponentToCSharp(
-        AdditionalText additionalText
+        AdditionalText additionalText,
+        IEnumerable<AdditionalText> additionalTexts
     )
     {
         var (projectItem, _) = ComputeProjectItems(additionalText, analyzerConfigOptions);
 
         var (razorOptions, _) = ComputeRazorSourceGeneratorOptions(analyzerConfigOptions, parseOptions);
 
+        var importItems = GetImportFiles(additionalTexts);
+
         var generator = GetGenerationProjectEngine(
             projectItem!,
-            Enumerable.Empty<SourceGeneratorProjectItem>(),
+            importItems,
             razorOptions!
         );
 
@@ -128,26 +131,32 @@ public class BlazorComponentToCSharpEngine(
         return (razorSourceGenerationOptions, diagnostic);
     }
 
-    //TODO: Imports
-    //private void GetImportFiles(IEnumerable<Add>)
-    //{
-    //    var importFiles = sourceItems.Where(static file =>
-    //    {
-    //        var path = file.FilePath;
-    //        if (path.EndsWith(".razor", StringComparison.OrdinalIgnoreCase))
-    //        {
-    //            var fileName = Path.GetFileNameWithoutExtension(path);
-    //            return string.Equals(fileName, "_Imports", StringComparison.OrdinalIgnoreCase);
-    //        }
-    //        else if (path.EndsWith(".cshtml", StringComparison.OrdinalIgnoreCase))
-    //        {
-    //            var fileName = Path.GetFileNameWithoutExtension(path);
-    //            return string.Equals(fileName, "_ViewImports", StringComparison.OrdinalIgnoreCase);
-    //        }
+    private IEnumerable<SourceGeneratorProjectItem> GetImportFiles(IEnumerable<AdditionalText> additionalTexts)
+    {
+        var sourceItems = additionalTexts
+               .Where(static (file) => file.Path.EndsWith(".razor", StringComparison.OrdinalIgnoreCase) || file.Path.EndsWith(".cshtml", StringComparison.OrdinalIgnoreCase))
+               .Select(i => ComputeProjectItems(i, analyzerConfigOptions))
+               .Select(i => i.Item1);
 
-    //        return false;
-    //    });
-    //}
+        var importFiles = sourceItems.Where(static file =>
+        {
+            var path = file.FilePath;
+            if (path.EndsWith(".razor", StringComparison.OrdinalIgnoreCase))
+            {
+                var fileName = Path.GetFileNameWithoutExtension(path);
+                return string.Equals(fileName, "_Imports", StringComparison.OrdinalIgnoreCase);
+            }
+            else if (path.EndsWith(".cshtml", StringComparison.OrdinalIgnoreCase))
+            {
+                var fileName = Path.GetFileNameWithoutExtension(path);
+                return string.Equals(fileName, "_ViewImports", StringComparison.OrdinalIgnoreCase);
+            }
+
+            return false;
+        });
+
+        return importFiles;
+    }
 
     private static SourceGeneratorProjectEngine GetGenerationProjectEngine(
            SourceGeneratorProjectItem item,
